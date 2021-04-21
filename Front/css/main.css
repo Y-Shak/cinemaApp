@@ -1,0 +1,9 @@
+header {
+    background-color: black;
+    color: white;
+}
+
+header>a {
+    text-decoration: none;
+    color:white;
+}
