@@ -40,43 +40,69 @@
         <div class="app-flex-box-main">
             <!-- box left -->
             <div class="app-flex-box-main-box-left">
-                <form>
-                   <label>Sélection du film : </label>
-                    <div>
-                        <select>
-                            <option value="0">choisir un film</option>
-                            <option value="1">Harry Potter à l'école des sorciers</option>
-                            <option value="2">Harry Potter et le prisonnier d'Azkaban</option>
-                        </select>
+                <!-- flex box form -->
+                <form class="app-flex-box-main-form">
+                    <!-- box movie -->
+                    <div class="app-flex-box-main-form-movie">
+                        <div class="app-flex-box-main-box-left_text">Sélection du film : </div>
+                        <div class="app-booking-select">
+                            <select>
+                                <option value="0">choisir un film</option>
+                                <option value="1">Harry Potter à l'école des sorciers</option>
+                                <option value="2">Harry Potter et le prisonnier d'Azkaban</option>
+                            </select>
+                        </div>
+                    <!-- end box movie -->
                     </div>
 
-                    <label>Sélection du jour : </label>
-                    <div>
-                        <input type="date" />
+                    <!-- box day -->
+                    <div class="app-flex-box-main-form-day">
+                        <div class="app-flex-box-main-box-left_text">Sélection du jour : </div>
+                        <div class="app-booking-select">
+                            <input type="date" />
+                        </div>
+                    <!-- end box day -->
                     </div>
 
-                    <label>Sélection de la séance : </label>
-                    <div>
-                        <select>
-                            <option value="0">choisir une séance</option>
-                            <option value="0">10:00 - 12:00</option>
-                            <option value="1">12:00 - 14:00</option>
-                            <option value="2">14:00 - 16:00</option>
-                            <option value="0">16:00 - 18:00</option>
-                            <option value="1">18:00 - 20:00</option>
-                            <option value="2">20:00 - 22:00</option>
-                        </select>
+                    <!-- box movie show -->
+                    <div class="app-flex-box-main-form-show">
+                        <div class="app-flex-box-main-box-left_text">Sélection de la séance : </div>
+                        <div class="app-booking-select">
+                            <select>
+                                <option value="0">choisir une séance</option>
+                                <option value="0">10:00 - 12:00</option>
+                                <option value="1">12:00 - 14:00</option>
+                                <option value="2">14:00 - 16:00</option>
+                                <option value="0">16:00 - 18:00</option>
+                                <option value="1">18:00 - 20:00</option>
+                                <option value="2">20:00 - 22:00</option>
+                            </select>
+                        </div>
+                    <!-- end box movie show -->
                     </div>
 
-                    <button type='submit'>Réserver</button>
+                    <!-- box button -->
+                    <div class="app-flex-box-main-button">
+                        <button type='submit' class="app-booking-button">Réserver</button>
+                    <!-- end box button -->
+                    </div>
+                <!-- end flex box form -->
                 </form>
             <!-- end box left -->
             </div>
-            <!-- box right -->
-            <div class="app-flex-box-main-box-right">
+            <!-- box middle -->
+            <div class="app-flex-box-main-box-middle">
   
             <img src="img/HP1_poster.jpg" class="app-image" title="image de profil" width="200px">
 
+            <!-- end box middle -->
+            </div>
+
+            <!-- box right -->
+            <div class="app-flex-box-main-box-right">
+
+                <div>ddd</div>
+    
             <!-- end box right -->
             </div>
         <!-- end flex box global -->
