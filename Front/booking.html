@@ -16,7 +16,7 @@
     <!-- ------------------------------------------------------------------------------------------------->
     <header>
         <div class="app-header-left-empty"></div>
-        <img src="img/logo_black_gold.png" alt="logo"  class="app-header-middle-logo"/> 
+        <img src="img/logo_black_gold.png" alt="logo" class="app-header-middle-logo" />
         <div class="app-header-right-connection">
             <a href="" class="app-connection-button">Connexion</a>
             <a href="" class="app-connection-button">Inscription</a>
@@ -29,17 +29,63 @@
         <a href="booking.html">Réservation</a>
         <a href="contact.html">Contact</a>
     </nav>
-    
+
     <!-- ------------------------------------------------------------------------------------------------->
     <!-- --------------------------------------- main ---------------------------------------------------->
     <!-- ------------------------------------------------------------------------------------------------->
     <main>
+        <!-- flex box global -->
+        <div>Séances et Réservations</div>
 
-    <div>Réservation</div>
+        <div class="app-flex-box-main">
+            <!-- box left -->
+            <div class="app-flex-box-main-box-left">
+                <form>
+                   <label>Sélection du film : </label>
+                    <div>
+                        <select>
+                            <option value="0">choisir un film</option>
+                            <option value="1">Harry Potter à l'école des sorciers</option>
+                            <option value="2">Harry Potter et le prisonnier d'Azkaban</option>
+                        </select>
+                    </div>
+
+                    <label>Sélection du jour : </label>
+                    <div>
+                        <input type="date" />
+                    </div>
+
+                    <label>Sélection de la séance : </label>
+                    <div>
+                        <select>
+                            <option value="0">choisir une séance</option>
+                            <option value="0">10:00 - 12:00</option>
+                            <option value="1">12:00 - 14:00</option>
+                            <option value="2">14:00 - 16:00</option>
+                            <option value="0">16:00 - 18:00</option>
+                            <option value="1">18:00 - 20:00</option>
+                            <option value="2">20:00 - 22:00</option>
+                        </select>
+                    </div>
+
+                    <button type='submit'>Réserver</button>
+                </form>
+            <!-- end box left -->
+            </div>
+            <!-- box right -->
+            <div class="app-flex-box-main-box-right">
+  
+            <img src="img/HP1_poster.jpg" class="app-image" title="image de profil" width="200px">
+
+            <!-- end box right -->
+            </div>
+        <!-- end flex box global -->
+        </div>
+
 
     </main>
     <!-- ------------------------------------------------------------------------------------------------->
-    <!-- ---------------------------------------header --------------------------------------------------->
+    <!-- -------------------------------------- footer --------------------------------------------------->
     <!-- ------------------------------------------------------------------------------------------------->
     <footer class='app-footer-global-flex'>
 
@@ -62,7 +108,7 @@
                 </a>
             </ul>
         </div>
-        
+
         <!-- Partie infos perso -->
         <div class='app-footer-middle'>
             <ul class="app-perso-footer">
@@ -79,6 +125,7 @@
     </footer>
 
     <script src="js/main.js"></script>
-    
+
 </body>
+
 </html>

@@ -11,7 +11,7 @@
 }
 
 header {
-    background-color: var(--medium-grey-color);
+    background-color: var(--medium-main-color);
     box-shadow: 0px 3px 3px black; 
     padding: 20px;
     display: flex;
@@ -31,8 +31,8 @@ header {
 }
 
 .app-connection-button {
-    background-color: var(--medium-yellow-color);
-    color :var(--medium-grey-color);
+    background-color: var(--medium-secondary-color);
+    color :var(--medium-main-color);
     padding: 8px;
     display: inline-block;
     margin-left: 10px;
@@ -53,7 +53,7 @@ header {
 }
 
 .app-menu-background {
-    background-color: var(--medium-yellow-color);
+    background-color: var(--medium-secondary-color);
     color :white;
     padding: 5px;
     height: 45px;
@@ -61,8 +61,8 @@ header {
 }
 
 .app-menu-background a {
-    background-color: var(--medium-grey-color);
-    color :var(--medium-yellow-color);
+    background-color: var(--medium-main-color);
+    color :var(--medium-secondary-color);
     padding: 8px;
     display: inline-block;
     margin-left: 10px;
@@ -74,7 +74,7 @@ header {
 
 .app-menu-background a:hover {
     background-color: var(--light-grey-color);
-    box-shadow: 3px 3px 3px var(--medium-grey-color);
+    box-shadow: 3px 3px 3px var(--medium-main-color);
     transition: 0.25s background-color 0.25s box-shadow;
 }
 
@@ -86,8 +86,8 @@ header {
  /* -------------------------- footer ----------------------------------- */
 
  .app-footer-global-flex {
-    background-color: var(--medium-yellow-color);
-    color: var(--medium-grey-color);
+    background-color: var(--medium-secondary-color);
+    color: var(--medium-main-color);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -103,7 +103,7 @@ header {
     font-weight: normal;
     text-decoration: none;
     list-style-type: none;
-    color: var(--medium-grey-color);
+    color: var(--medium-main-color);
     font-size: 15px;
 }
 
@@ -120,19 +120,6 @@ header {
     font-size: 15px;
     line-height: 1.9;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* ------------------------------------------------------------------------------------------------
@@ -158,7 +145,25 @@ header {
 ------------------------------------------- booking page ------------------------------------------
 --------------------------------------------------------------------------------------------------- */
 
+.app-flex-box-main {
+    background-color: rgba(0, 0, 255, 0.473);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:flex-start;
+    align-content: flex-start;
+    margin: 50px;
+}
 
+.app-flex-box-main-box-left {
+    background-color: rgba(9, 255, 0, 0.473);
+
+}
+
+.app-flex-box-main-box-right {
+    background-color: rgba(255, 0, 149, 0.473);
+
+}
 
 
 
