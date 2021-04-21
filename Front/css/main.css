@@ -1,59 +1,125 @@
+
+/* ------------------------------------------------------------------------------------------------
+------------------------------------------- footer/header/global style ----------------------------
+--------------------------------------------------------------------------------------------------- */
+
+ /* -------------------------- header/global ----------------------------------- */
+
+.app-font-global {
+    font-family: 'Roboto', sans-serif;    
+    background-color: var(--background-color);
+}
+
 header {
-    background-color: rgb(24, 24, 24);
-    box-shadow: 0px 2px 2px black;
-    padding: 20px;
-
-}
-
-header a {
-    text-decoration: none;
-    color:red;
-}
-
-.app-connection {
-display: inline-block;
-}
-
-/* .app-banner {
     background-color: var(--medium-grey-color);
-    color :white;
-    padding: 10px;
-    height: 130px;
-    text-align: center;
-    box-shadow: 0px 2px 2px black;
+    box-shadow: 0px 3px 3px black; 
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
 }
 
-.app-menu-banner {
-    background-color: var(--dark-grey-color);
-    color :white;
-    padding: 3px;
-    height: 50px;
-    box-shadow: 0px 3px 3px black;
-
+.app-header-left-empty {
+    width: 250px;
+    height: 100px;
+}
+.app-header-middle-logo {
+}
+.app-header-right-connection {
+    width: 250px;
 }
 
-.app-menu-buttons {
-    background-color: var(--light-grey-color);
-    color :black;
+.app-connection-button {
+    background-color: var(--medium-yellow-color);
+    color :var(--medium-grey-color);
     padding: 8px;
     display: inline-block;
     margin-left: 10px;
     margin-top: 5px;
     font-weight: bold;
-    box-shadow: 5px 5px black;
+    box-shadow: 3px 3px 3px var(--dark-grey-color);
+    text-decoration: none;
+    /* border-radius: 15px; */
+}
+.app-connection-button:hover {
+    background-color: var(--light-yellow-color);
+    box-shadow: 3px 3px 3px var(--dark-yellow-color);
+    color :black;
+}
+.app-connection-button:active {
+    transform: translateY(3px) translateX(3px);
+    box-shadow: 0px 0px 0px var(--dark-yellow-color);
+}
+
+.app-menu-background {
+    background-color: var(--medium-yellow-color);
+    color :white;
+    padding: 5px;
+    height: 45px;
+    box-shadow: 0px 3px 3px var(--dark-yellow-color);
+}
+
+.app-menu-background a {
+    background-color: var(--medium-grey-color);
+    color :var(--medium-yellow-color);
+    padding: 8px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-weight: bold;
+    box-shadow: 3px 3px 3px black;
     text-decoration: none;
 }
 
-.app-menu-buttons:hover {
-    background-color: var(--medium-yellow-color);
-    box-shadow: 5px 5px var(--dark-yellow-color);
+.app-menu-background a:hover {
+    background-color: var(--light-grey-color);
+    box-shadow: 3px 3px 3px var(--medium-grey-color);
     transition: 0.25s background-color 0.25s box-shadow;
 }
 
-.app-menu-buttons:active{
-    transform: translateY(4px) translateX(4px);
-    box-shadow: 1px 1px var(--dark-yellow-color);
-} */
+.app-menu-background a:active{
+    transform: translateY(3px) translateX(3px);
+    box-shadow: 0px 0px var(--dark-yellow-color);
+} 
+
+ /* -------------------------- footer ----------------------------------- */
+
+ .app-footer-global-flex {
+    background-color: var(--medium-yellow-color);
+    color: var(--medium-grey-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:flex-end;
+    align-content: flex-start;
+}
+
+.app-footer-left {
+    font-weight: bold;
+}
+
+.app-footer-left a {
+    font-weight: normal;
+    text-decoration: none;
+    list-style-type: none;
+    color: var(--medium-grey-color);
+    font-size: 15px;
+}
+
+.app-footer-middle {
+    width: 400px;
+}
+
+.app-footer-right {
+    padding-bottom: 15px;
+}
+
+.app-perso-footer {
+    list-style-type: none;
+    font-size: 15px;
+    line-height: 1.9;
+}
 
 
 
@@ -64,10 +130,6 @@ display: inline-block;
 
 
 
-
-/* ------------------------------------------------------------------------------------------------
-------------------------------------------- footer/header/global style ----------------------------
-/* ------------------------------------------------------------------------------------------------
 
 
 
@@ -75,7 +137,7 @@ display: inline-block;
 
 /* ------------------------------------------------------------------------------------------------
 ------------------------------------------- Main page ---------------------------------------------
-/* ------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------- */
 
 
 
@@ -85,7 +147,7 @@ display: inline-block;
 
 /* ------------------------------------------------------------------------------------------------
 ------------------------------------------- In showing page ---------------------------------------
-/* ------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------- */
 
 
 
@@ -94,7 +156,7 @@ display: inline-block;
 
 /* ------------------------------------------------------------------------------------------------
 ------------------------------------------- booking page ------------------------------------------
-/* ------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------- */
 
 
 
@@ -103,7 +165,7 @@ display: inline-block;
 
 /* ------------------------------------------------------------------------------------------------
 ------------------------------------------- movie page --------------------------------------------
-/* ------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------- */
 
 
 
@@ -114,4 +176,4 @@ display: inline-block;
 
 /* ------------------------------------------------------------------------------------------------
 ------------------------------------------- contact page ------------------------------------------
-/* ------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------- */
