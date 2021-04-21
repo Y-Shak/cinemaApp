@@ -7,6 +7,9 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' href='css/main.css'>
     <link rel='stylesheet' type='text/css' href='css/variables.css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body class="app-font-global">
@@ -34,16 +37,18 @@
     <!-- --------------------------------------- main ---------------------------------------------------->
     <!-- ------------------------------------------------------------------------------------------------->
     <main>
-        <!-- flex box global -->
-        <div>Séances et Réservations</div>
+        
+        <div class="app-title-booking">Réservation</div>
 
+        <!-- flex box global -->
         <div class="app-flex-box-main">
             <!-- box left -->
             <div class="app-flex-box-main-box-left">
                 <!-- flex box form -->
                 <form class="app-flex-box-main-form">
                     <!-- box movie -->
-                    <div class="app-flex-box-main-form-movie">
+                    <div class="app-logo-booking-box">
+                        <div class="app-logo-booking"><i class="fa fa-film fa-2x"></i></div>
                         <div class="app-flex-box-main-box-left_text">Sélection du film : </div>
                         <div class="app-booking-select">
                             <select>
@@ -56,7 +61,8 @@
                     </div>
 
                     <!-- box day -->
-                    <div class="app-flex-box-main-form-day">
+                    <div class="app-logo-booking-box">
+                        <div class="app-logo-booking"><i class="fa fa-calendar fa-2x"></i></div>
                         <div class="app-flex-box-main-box-left_text">Sélection du jour : </div>
                         <div class="app-booking-select">
                             <input type="date" />
@@ -65,7 +71,8 @@
                     </div>
 
                     <!-- box movie show -->
-                    <div class="app-flex-box-main-form-show">
+                    <div class="app-logo-booking-box">
+                        <div class="app-logo-booking"><i class="fa fa-clock-o fa-2x"></i></div>
                         <div class="app-flex-box-main-box-left_text">Sélection de la séance : </div>
                         <div class="app-booking-select">
                             <select>
@@ -82,8 +89,15 @@
                     </div>
 
                     <!-- box button -->
-                    <div class="app-flex-box-main-button">
-                        <button type='submit' class="app-booking-button">Réserver</button>
+                    <div>
+                        <!-- flex box button -->
+                        <div class="app-flex-box-main-button">
+                            <div class="app-logo-booking"><i class="fa fa-ticket fa-2x"></i></div>
+                            <div class="app-booking-button-box">
+                                <button type='submit' class="app-booking-button">Réserver</button>
+                            </div>
+                        <!-- end flex box button -->
+                        </div>
                     <!-- end box button -->
                     </div>
                 <!-- end flex box form -->
@@ -100,9 +114,13 @@
 
             <!-- box right -->
             <div class="app-flex-box-main-box-right">
-
-                <div>ddd</div>
-    
+                <!-- flex box right -->
+                <div class="app-flex-box-main-box-right-infos">
+                    <div class="app-box-right-title">Harry Potter à l'école des sorciers</div>
+                    <div class="app-box-right-producer">Réalisateur : Chris Columbus</div>
+                    <div class="app-box-right-synopsis">Synopsis : Orphelin, Harry Potter a été recueilli à contrecœur par son oncle Vernon et sa tante Pétunia, aussi cruels que mesquins, qui n'hésitent pas à le faire dormir dans le placard sous l'escalier. Constamment maltraité, il doit en outre supporter les jérémiades de son cousin Dudley, garçon cupide et archi-gâté par ses parents. De leur côté, Vernon et Pétunia détestent leur neveu dont la présence leur rappelle sans cesse le tempérament "imprévisible" des parents du garçon et leur mort mystérieuse...</div>
+                <!-- end flex box right -->
+                </div>
             <!-- end box right -->
             </div>
         <!-- end flex box global -->

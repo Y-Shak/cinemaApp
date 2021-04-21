@@ -145,18 +145,23 @@ header {
 ------------------------------------------- booking page ------------------------------------------
 --------------------------------------------------------------------------------------------------- */
 
+.app-title-booking {
+    padding-left: 50px;
+    padding-top: 50px;
+    font-size: 40px;
+    color: var(--light-main-color);
+}
+
 .app-flex-box-main {
-    background-color: rgba(0, 0, 255, 0.473);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 50px;
-    margin-right: 500px;
+    margin: 30px 50px 50px 50px;
+    
 }
 
 .app-flex-box-main-box-left {
-    background-color: rgba(9, 255, 0, 0.473);
-    width: 500px;
+    width: 550px;
 }
 
 .app-flex-box-main-form {
@@ -167,50 +172,125 @@ header {
     align-items: flex-end;
 }
 
-.app-flex-box-main-form-movie {
-background-color: rgba(255, 0, 0, 0.466);
-width: 500px;
-
-}
 .app-flex-box-main-box-left_text {
     display: inline-block;
-    padding: 10px;
+    padding-top: 13px;
     width: 180px;
 
 }
 .app-booking-select {
     display: inline-block;
-
-}
-.app-flex-box-main-form-day {
-    background-color: rgba(0, 174, 255, 0.466);
-    width: 500px;
-
-}
-
-.app-flex-box-main-form-show {
-    background-color: rgba(217, 255, 0, 0.466);
-    width: 500px;
-
 }
 
 .app-flex-box-main-button {
-    background-color: rgba(204, 0, 255, 0.466);
+    width: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color: var(--light-main-color);
+    box-shadow: 3px 3px 3px black;
+    color: white;
+    width: 210px;
+    border-radius: 15px;
+    position: sticky;
+    height: 45px;
+    margin-top: 0px;
 }
 
 .app-booking-button {
-    margin-top: 20px;
     width: 100px;
-
+    height: 26px;
+    border-radius: 10px;
 }
-.app-flex-box-main-box-middle {
-    background-color: rgba(255, 0, 149, 0.473);
 
+.fa-film {
+    margin-left: 20px;
+    padding: 0px 30px 0px 4px;
+    color: var(--dark-grey-color);
+    float:left;
+}
+.fa-calendar {
+    margin-left: 20px;
+    padding: 0px 30px 0px 4px;
+    color: var(--dark-grey-color);
+    float:left;
+}
+.fa-clock-o {
+    margin-left: 20px;
+    padding: 0px 30px 0px 4px;
+    color: var(--dark-grey-color);
+    float:left;
+}
+.fa-ticket {
+    margin-left: 20px;
+    padding: 0px 30px 0px 4px;
+    color: var(--dark-grey-color);
+    float:left;
+}
+
+.app-logo-booking-box {
+    background-color: var(--light-main-color);
+    box-shadow: 3px 3px 3px black;
+    color: white;
+    width: 550px;
+    border-radius: 15px;
+    position: sticky;
+    height: 45px;
+    margin-top: 0px;
+}
+
+ .app-logo-booking {
+    display: block;
+    float: left;
+    width: 70px;
+    height: 38px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color:  var(--medium-secondary-color);  
+    margin-right: 20px; 
+    padding-top: 7px;
+    box-shadow: 3px 0px 3px black;
+} 
+
+.app-flex-box-main-box-middle {
+    /* background-color: rgba(255, 0, 149, 0.473); */
+}
+
+.app-booking-button-box {
+margin-right: 50px;
+margin-top: 10px;
 }
 
 .app-flex-box-main-box-right {
-    background-color: rgba(0, 153, 255, 0.473);
+    /* background-color: rgba(0, 153, 255, 0.473); */
+    width: 300px;
+}
 
+.app-flex-box-main-box-right-infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:flex-start;
+    align-content: flex-start;
+    height: 300px;
+}
+
+.app-box-right-title {
+    font-size: 20px;
+    color: var(--medium-main-color);
+    font-weight: bold;
+}
+
+.app-box-right-producer {
+    font-size: 15px;
+    color: var(--medium-main-color);
+
+}
+
+.app-box-right-synopsis {
+    font-size: 15px;
+    color: var(--medium-main-color);
+    text-align: justify;
 }
 
 /* ------------------------------------------------------------------------------------------------
